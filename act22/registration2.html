@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      body {
+        background-color: rgb(240, 236, 223);
+      }
+    </style>
+    <title>Account Registration</title>
+  </head>
+  <body>
+    <div class="container pt-4 pb-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="burgerr.jpg"
+                     alt="burger"
+                     style="width: 100%" />
+            </div>
+
+            <div class="col-lg-8 pt-5">
+                <form>
+                    <div class="form-group">
+                        
+                        <label for="username" style="font-weight: bold">Username:</label>
+                        <input type="email"
+                               class="form-contol"
+                               id="username"
+                               placeholder="ex. jeprox2022" />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="first name" style="font-weight: bold">First Name:</label>
+                        <input type="first name"
+                               class="form-contol"
+                               id="first name"
+                               placeholder="ex. Philipp Charles"/>
+                    </div>
+                    
+                    <div class="form-group">
+                       <label for="last name" style="font-weight: bold">Last Name:</label>
+                       <input type="last name"
+                              class="form-contol"
+                              id="last name"
+                              placeholder="ex. Lambayan" />
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="password" style="font-weight: bold">Password:</label>
+                      <input type="password"
+                             class="form-contol"
+                             id="password"
+                             placeholder="ex. at least one capitalized letter" />
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="confirm password" style="font-weight: bold">Confirm Password:</label>
+                      <input type="confirm password"
+                             class="form-contol"
+                             id="confirm password"
+                             placeholder="ex. ********" />
+                    </div>
+                    
+                    <div class="radio">
+                      <label for="gender" style="font-weight: bold">Gender:</label>
+                      <label><input type="radio" name="gender" value="male"> Male</label>
+                      <label><input type="radio" name="gender" value="female"> Female</label>
+                      <label><input type="radio" name="gender" value="other">Other</label>
+                    </div>
+                    
+                    <div class="radio">
+                      <label for="How many times have you visited our restaurant?" style="font-weight: bold">
+                        How many times have you visited our restaurant?</label><br />
+                      <label><input type="radio" name="How many times have you visited our restaurant?" value="none at all"> none at all</label>
+                      <label><input type="radio" name="How many times have you visited our restaurant?" value="1-2 times"> 1-2 times</label>
+                      <label><input type="radio" name="How many times have you visited our restaurant?" value="3-5 times"> 3-5 times</label>
+                      <label><input type="radio" name="How many times have you visited our restaurant?" value="more than 5 times">more than 5 times</label>
+                    </div>
+                   
+                    <div class="form-group">
+                      <label for="address" style="font-weight: bold">Address:</label>
+                      <input type="address"
+                             class="form-contol"
+                             id="address"
+                             placeholder="brgy   city/town   province" />
+                    </div>
+                    <div class="form-group">
+                      <label for="upload account photo" style="font-weight: bold">Upload account photo:</label>
+                      <input type="file" name="file upload" accept="image/*" />
+                      <button type="submit" class="btn btn-default" style="background-color:black; color: white">Submit</button>
+                    </div>  
+                </form>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>

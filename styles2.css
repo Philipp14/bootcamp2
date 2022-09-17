@@ -1,0 +1,70 @@
+
+/* body {
+    background-color: lime;
+    background-image: url(shockbaby.gif);
+    background-size: 100%;
+    background-position: right top;
+    background-attachment: fixed;
+} */
+
+/* body {
+    background-image: linear-gradient(red yellow);
+} */
+
+/* a:link, a:visited {
+    background-color: greenyellow;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: green;
+}
+
+h1 {
+    background-color: yellow;
+} */
+
+/* .heading {
+    font-size: 200%;
+    background-color: lime;
+    display: none;
+} */
+
+/* span.heading {
+    background-color: aqua;
+    display: block;
+    text-align: center;
+}
+
+img {
+    background-color: orange;
+    display: block;
+    margin: auto;
+    width: 30%;
+} */
+
+/* img.left {
+    float: left;
+    width: 200px;
+    position: relative;
+    left: 100px;
+} */
+
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    opacity: 0.1;
+    z-index: -2;
+}

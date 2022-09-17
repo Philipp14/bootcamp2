@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <title>Bootstrap Table</title>
+    <style>
+        td:hover {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container p-3 bg-dark text-white text-center">
+        <h1>Danny's Foods</h1>
+    </div>
+
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-lg-12 table-responsive">
+                <table class="table table-bordered" style="border: 2px solid black">
+                    <thead>
+                        <tr style="background-color: rgb(218, 255, 233)">
+                            <th>Icons</th>
+                            <th>Item Name</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color:rgb(158, 229, 182)">
+                        <tr>
+                            <th 
+                            class="text-center"
+                            colspan="3"
+                            style="background-color: rgb(29, 70, 30); color: white">Meals</th>
+                        </tr>
+                        <tr>
+                            <td><img class="img-responsive"
+                                     src="burger.jpg"
+                                     alt="burger"
+                                     style="max-width: 52px">
+                            </td>
+                            <td>Burger</td>
+                            <td>55 PHP</td>
+                        </tr>
+                        <tr>
+                            <td><img class="img-responsive"
+                                     src="friedchicken.jpg"
+                                     alt="burger"
+                                     style="max-width: 50px">
+                            </td>
+                            <td>Fried Chicken</td>
+                            <td>80 PHP</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="img-responsive"
+                                     src="spaghetti.jpg"
+                                     alt="burger"
+                                     style="max-width: 50px">
+                            </td>
+                            <td>Spaghetti</td>
+                            <td>55 PHP</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="img-responsive"
+                                     src="pizza.jpg"
+                                     alt="burger"
+                                     style="max-width: 50px">
+                            </td>
+                            <td>Pizza</td>
+                            <td>150 PHP</td>    
+                        </tr>
+                        <tr>
+                            <th 
+                            class="text-center"
+                            colspan="3"
+                            style="background-color: rgb(29, 70, 30); color: white">Drinks</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="img-responsive"
+                                     src="coke.png"
+                                     alt="burger"
+                                     style="max-width: 50px">
+                            </td>
+                            <td>Coke</td>
+                            <td>20 PHP</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="img-responsive"
+                                     src="sprite.png"
+                                     alt="burger"
+                                     style="max-height: 50px">
+                            </td>
+                            <td>Sprite</td>
+                            <td>20 PHP</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="img-responsive"
+                                     src="sarsi.jfif"
+                                     alt="burger"
+                                     style="max-width: 50px"></td>
+                            <td>Sarsi</td>
+                            <td>20 PHP</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"
+                                colspan="2"
+                                rowspan="2"
+                                style="font-size: 30px; 
+                                          color: rgba(254, 0, 0, 0.956); 
+                                          background-color: rgb(218, 255, 233);
+                                          font-weight: bold"
+                                          >All items are subject to tax. No<br />
+                            refunds. All items are not<br /> transferrable.</td>
+                            <td colspan="2">Extra Rice- 20 PHP</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Condiments- 20 PHP</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </div>
+        </div>
+    </div>
+</body>    
